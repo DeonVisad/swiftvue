@@ -8,12 +8,12 @@ import InfoBanner from './Components/InfoBanner/InfoBanner';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex flex-col">
       <Navbar />
       <Home />
       <Reviews />
       <InfoBanner />
-      {/* <Inquiry /> */}
+      <Inquiry />
       {/* <Footer /> */}
     </div>
   );
