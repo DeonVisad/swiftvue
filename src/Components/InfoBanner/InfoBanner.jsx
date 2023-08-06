@@ -4,7 +4,7 @@ import light from '../../Assets/light.jpg'
 const InfoBanner = () => {
   const rangeVal = document.getElementById('rangeVal');
   return (
-    <div className='flex flex-col w-full h-screen'>
+    <div className='flex flex-col w-full items-center'>
       <div className='flex flex-col w-full items-center'>
           <img className='h-[200px] md:h-[600px] w-full' src={light}/>
           <div className='w-[65vw] h-[40vh] md:h-[60vh] bg-gray-800 flex flex-col justify-center items-center'>
@@ -18,7 +18,7 @@ const InfoBanner = () => {
           </div>
           
       </div>
-    <div className='flex flex-col mt-10 ml-6 md:items-center'>
+    <div className='flex flex-col w-full h-screen mt-10 ml-6 md:items-center'>
       <h2 className='text-white text-2xl md:text-4xl'>Adjust anytime, <span className='text-lime-300'>anywhere!</span></h2>
       <br></br>
       <p className='text-white md:text-xl'>Our cutting-edge dashboard simplifies the complex world of marketing by offering a swift and seamless experience.</p>
