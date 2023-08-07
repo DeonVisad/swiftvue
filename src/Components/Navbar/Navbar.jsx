@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className=''>
           <span className='text-white text-xl md:hidden z-30' onClick={handleOpen}>{!open ? <GiHamburgerMenu /> : <span>X</span>}</span>
         </div>
-        <ul className={!open ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex gap-3 justify-center items-center bg-[#00111C] z-999'}>
+        <ul className={!open ? 'hidden' : 'absolute top-0 left-0 w-full h-screen flex gap-3 justify-center items-center bg-[#00111C] z-2'}>
           <span className='text-white text-3xl font-bold animate-pulse'>SWIFT<span className='text-lime-300'>VUE</span></span>
           <div className='flex-col flex gap-3'>
             <li><Link className='text-white px-3 text-3xl cursor-pointer hover:text-lime-300' onClick={handleOpen}>HOME</Link></li>

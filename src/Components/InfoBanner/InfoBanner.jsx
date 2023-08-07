@@ -1,19 +1,18 @@
 import React from 'react';
-import light from '../../Assets/light.jpg'
+import light from '../../Assets/light.jpg';
+import RangeSlider from '../RangeSlider/RangeSlider';
 
 const InfoBanner = () => {
-  const rangeVal = document.getElementById('rangeVal');
   return (
     <div className='flex flex-col w-full items-center'>
       <div className='flex flex-col w-full items-center'>
-          <img className='h-[200px] md:h-[600px] w-full' src={light}/>
+          <img className='h-[200px] md:h-[600px] w-full shadow-2xl' src={light}/>
           <div className='w-[65vw] h-[40vh] md:h-[60vh] bg-gray-800 flex flex-col justify-center items-center'>
             <span className='w-[40vw] border-b-[1px] border-gray-600'></span>
             <p className='flex mt-3 text-white md:text-xl'>Powered by</p>
             <p className='flex text-end text-lime-300 md:text-xl'>Livable<br></br>Payments</p>
-            <div className='flex flex-col m-3 h-[8vh] w-[50vw] bg-zinc-900 justify-center'>
-              <label className='pb-1' for="rangeVal">Adjust Range</label>
-              <input className='' id='rangeVal' name='rangeVal' type='range' min={0} max={100} step={10}/>
+            <div className='flex flex-col justify-center'>
+              <RangeSlider />
             </div>
           </div>
           
