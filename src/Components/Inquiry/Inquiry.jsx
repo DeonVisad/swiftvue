@@ -3,7 +3,7 @@ import {BsFillPlayFill} from 'react-icons/bs'
 
 const Inquiry = () => {
   return (
-    <div className='flex flex-col w-full h-screen text-white items-center md:justify-center md:items-center'>
+    <div name='contact' className='flex flex-col w-full h-screen text-white items-center md:justify-center md:items-center'>
         <div className='flex flex-col w-full h-screen items-start ml-6 md:ml-0 md:items-center md:justify-center'>
           <button className='bg-gray-800 py-1 px-5 flex items-center'><span className='text-lime-300'><BsFillPlayFill /></span> Demo Available</button>
           <h2 className='mt-4 text-3xl'>Start your campaign <br></br>of the future today</h2>

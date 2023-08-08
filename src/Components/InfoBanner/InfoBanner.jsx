@@ -4,7 +4,7 @@ import RangeSlider from '../RangeSlider/RangeSlider';
 
 const InfoBanner = () => {
   return (
-    <div className='flex flex-col w-full items-center'>
+    <div name='learn' className='flex flex-col w-full items-center'>
       <div className='flex flex-col w-full items-center'>
           <img className='h-[200px] md:h-[600px] w-full shadow-2xl' src={light}/>
           <div className='w-[65vw] h-[40vh] md:h-[60vh] bg-gray-800 flex flex-col justify-center items-center'>

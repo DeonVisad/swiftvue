@@ -3,7 +3,7 @@ import Header from '../Header/Header'
 
 const Home = () => {
   return (
-    <div className='flex h-screen w-full items-center overflow-x-hidden'>
+    <div name='home' className='flex h-screen w-full items-center overflow-x-hidden'>
       <Header />
     </div>
   )
